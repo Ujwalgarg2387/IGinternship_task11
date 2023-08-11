@@ -1,0 +1,138 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position:inherit;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 60px;
+    color: red;
+    text-align: center;
+}
+
+#start{
+    height: 70px;
+    width: 180px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: white solid 4px;
+    border-radius: 30px;
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    cursor: pointer;
+}
+
+#home{
+    height: 70px;
+    width: 180px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: white solid 4px;
+    border-radius: 30px;
+    cursor: pointer;
+    visibility: hidden;
+    position: absolute;
+    top: 25%;
+    left: 46%;
+}
+
+.points{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+    visibility: hidden;
+}
+#p1 {
+    margin-left: 720px;
+}
+
+.mole{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    visibility: hidden;
+
+}
+
+.dirt{
+    width: 170px;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#mole{
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+
+#dirt {
+    position: absolute;
+    top: 42%;
+    left: 41%;
+}
+
+
+#mole1{
+    top: 64%;
+    left: 31%;
+}
+#dirt1{
+    top: 72%;
+    left: 28%;
+}
+
+
+#mole2{
+    top: 64%;
+    left: 48%;
+}
+#dirt2{
+    top: 72%;
+    left: 45%; 
+}
+
+#mole3{
+    top: 64%;
+    left: 65%;
+}
+
+#dirt3{
+    top: 72%;
+    left: 62%;  
+}
+
+#mole4{
+    top: 82%;
+    left: 31%;
+}
+
+#dirt4{
+    top: 90%;
+    left: 28%;
+}
+#mole5{
+    top: 82%;
+    left: 48%; 
+}
+#dirt5{
+    top: 90%;
+    left: 45%;   
+}
+
+#mole6{
+    top: 82%;
+    left: 65%;
+}
+
+#dirt6{
+    top: 90%;
+    left: 62%;
+}
